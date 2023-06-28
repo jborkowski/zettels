@@ -10,8 +10,8 @@ environment:
   NIX_CONFIG: "experimental-features = nix-command flakes"
 tasks:
 - build: |
-    cd zettels
-    emanote -L . gen ../$site
+    mkdir $site
+    emanote -L zettels gen $site
 - package: |
     cd $site
     tar -cvz . > ../site.tar.gz
