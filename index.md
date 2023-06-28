@@ -1,7 +1,11 @@
-# Emanote Template
+# j14i Notes
 
-This is a Git template repository of Markdown notes that are automatically rendered using [Emanote] and hosted on [[GitHub Pages]], while enabling editing in the likes of [Visual Studio Code](https://emanote.srid.ca/start/resources/editors/vscode). For details, see https://github.com/srid/emanote-template.
+Welcome to my public zettelkasten, a collection of interconnected notes on various topic. This zettelkasten serves as a knowledge repository where I explore ideas, make connections, and organize my thoughts. Feel free to explore and discover new insights.
 
-Any `.md` file (eg: [[GitHub Pages]]) or directory of `.md` files (eg: [[Tutorials]]) you add to the repository will be rendered automatically. For information on all features Emanote supports, see https://emanote.srid.ca/
+## Getting Started 
 
-[Emanote]: https://emanote.srid.ca/
+If you're new to zettelkasten or would like to know more about this approach, please read more [here](https://en.wikipedia.org/wiki/Zettelkasten)
+
+## Contact Me
+
+If you have any questions, suggestions, or just want to connect, feel free to reach out to me at mail@j14i.me

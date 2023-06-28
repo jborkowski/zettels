@@ -2,14 +2,14 @@
 # https://github.com/srid/emanote/blob/master/default/index.yaml
 
 page:
-  siteTitle: Emanote Template
+  siteTitle: j14i Notes
 
 template:
   theme: red
 
   # You can add your own variables here, like editBaseUrl.
   # See after-note.tpl to see where editBaseUrl gets used.
-  editBaseUrl: https://github.com/srid/emanote-template/edit/master
+  editBaseUrl: https://git.sr.ht/~j14i/zettels/edit/master
 
   # Uncomment this to get neuron-style pages
   # name: /templates/layouts/note

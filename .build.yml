@@ -1,0 +1,16 @@
+image: nixos/23.05
+oauth: pages.sr.ht/PAGES:RW
+packages:
+- hut
+- emanote
+environment:
+  site: j14i.srht.site
+  NIX_CONFIG: "experimental-features = nix-command flakes"
+tasks:
+- build: |
+    emanote -L "/data" gen
+- package: |
+    cd $site
+    tar -cvz . > ../site.tar.gz
+- upload: |
+    hut pages publish -d $site site.tar.gz
