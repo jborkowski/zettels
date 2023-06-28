@@ -1,14 +1,17 @@
 image: nixos/23.05
 oauth: pages.sr.ht/PAGES:RW
 packages:
-- hut
-- emanote
+- nixos.hut
+- nixos.emanote
+sources:
+  - https://git.sr.ht/~j14i/zettels
 environment:
   site: j14i.srht.site
   NIX_CONFIG: "experimental-features = nix-command flakes"
 tasks:
 - build: |
-    emanote -L "/data" gen
+    cd zettels
+    emanote -L . gen ../$site
 - package: |
     cd $site
     tar -cvz . > ../site.tar.gz
